@@ -1,5 +1,7 @@
 body{
     background: khaki;
+    max-width: 42em;
+    margin: 0 auto;
 }
 
 html{
@@ -13,4 +15,9 @@ html{
 ::selection{
     background: #44C8F5;
     color: white;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: top;
 }
